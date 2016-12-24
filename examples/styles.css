@@ -1,0 +1,13 @@
+.warning {
+    background-color: orange;
+}
+.error {
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+table thead {
+    background-color: aliceblue;
+}

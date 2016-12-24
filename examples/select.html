@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TW jQuery Examples</title>
+
+    <link rel="stylesheet" href="../fancy-select.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../fancy-select.js"></script>
+
+</head>
+
+<body>
+
+<a href="index.html">Back</a><br/><br/>
+
+<select class="tm-fancy-select" id="s1" name="field1">
+    <option>&nbsp;</option>
+    <option value="1">One</option>
+    <option value="2" class="warning">Two</option>
+    <option value="3" style="color:blue;">Three</option>
+    <option value="4" disabled>Four</option>
+    <option value="5" selected>Five</option>
+    <option value="6">Six</option>
+</select>
+
+<br/><br/>
+
+<div id="s2" data-name="field2"></div>
+
+<script>
+    $(document).ready(function() {
+        $('#s2').tmFancySelect({options: [
+            {
+                value: 1,
+                name: 'Billy',
+                style: 'color:red',
+            },
+            {
+                value: 2,
+                name: 'Fred',
+                class: 'error',
+            },
+        ]});
+        $('#s2').tmFancySelect('addOptions', [
+            {
+                value: 3,
+                name: 'John',
+            },
+            {
+                value: 4,
+                name: 'Archie',
+                disabled: true,
+            },
+            {
+                value: 5,
+                name: 'Mike',
+                selected: true,
+            }
+        ]);
+        $('#s2').tmFancySelect('addOption', {
+            value: 6,
+            name: 'Peter',
+            style: 'font-weight:bold;',
+        });
+        $('#s1').tmFancySelect('editOption', {value: 3, name: 'Three <img src="ship.jpg">'});
+        $('#s2').tmFancySelect('editOption', {index: 2, name: '<img src="ship.jpg"> John Silver'});
+
+        //$('#s2').tmFancySelect('removeAttr', {value: 2, attr: 'class'})
+        //$('#s1').tmFancySelect('select', {value: 2});
+        //$('#s1').tmFancySelect('disable', {value: 2});
+        //$('#s1').tmFancySelect('enable', {value: 2});
+        //$('#s2').tmFancySelect('clearOptions');
+        //$('#s2').tmFancySelect('destroy');
+    });
+</script>
+
+</body>
+</html>

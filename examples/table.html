@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Table example</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../table-header-fix.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#t1').twTableHeaderFix();
+        });
+    </script>
+
+</head>
+<body>
+
+<a href="index.html">Back</a><br/><br/>
+
+<table id="t1">
+    <thead><tr>
+        <th width="120px">Language</th>
+        <th width="200px">Country</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">Angika</td>
+        <td>India</td>
+        <td>majority in Anga, significant minority in the rest of the country</td>
+    </tr>
+    <tr>
+        <td>Nepal</td>
+        <td>minority language, in Terai region</td>
+    </tr>
+    <tr>
+        <td rowspan="4">Assamese</td>
+        <td>Bhutan</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>official language along with 21 others</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Awadhi<sup id="cite_ref-11" class="reference">[11]</sup></td>
+        <td>Bhutan</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>majority in Uttar Pradesh, minority in Bihar, Madhya Pradesh, and Delhi</td>
+    </tr>
+    <tr>
+        <td>Bhili</td>
+        <td>India</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="11">Bhojpuri</td>
+        <td>Fiji</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Guyana</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>in Bihar, Jharkhand, and Uttar Pradesh</td>
+    </tr>
+    <tr>
+        <td>Mauritius</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Nepal</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Suriname</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Trinidad and Tobago</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Seychelles</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>South Africa</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Australia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Bishnupriya Manipuri</td>
+        <td>India</td>
+        <td>minority, mostly in Manipur, Assam and Tripura</td>
+    </tr>
+    <tr>
+        <td>Bangladesh</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Burma</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Chakma</td>
+        <td>Bangladesh</td>
+        <td>minority, mostly in Chittagong Division</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>minority, mostly in Tripura, Mizoram, Arunachal Pradesh</td>
+    </tr>
+    <tr>
+        <td>Chhattisgarhi</td>
+        <td>India</td>
+        <td>majority in Chhattisgarh, minority in Madhya Pradesh, Orissa, and Bihar</td>
+    </tr>
+    <tr>
+        <td rowspan="10">Chittagonian</td>
+        <td>Bangladesh</td>
+        <td>significant minority, major language of Chittagong Division of Bangladesh</td>
+    </tr>
+    <tr>
+        <td>Burma</td>
+        <td>minority, mostly in Arakan and Yangon</td>
+    </tr>
+    <tr>
+        <td>Oman</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Saudi Arabia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Arab Emirates</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Qatar</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Kuwait</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Pakistan</td>
+        <td>minority, mostly in Karachi</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Dhivehi</td>
+        <td>India</td>
+        <td>in Lakshadweep</td>
+    </tr>
+    <tr>
+        <td>Maldives</td>
+        <td>official</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Dogri</td>
+        <td>Pakistan</td>
+        <td>in Punjab, and Azad Kashmir</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>in Jammu and Kashmir, Punjab, and Himachal Pradesh</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Hajong</td>
+        <td>India</td>
+        <td>minority, mostly in Assam, Meghalaya, Arunachal Pradesh and West Bengal</td>
+    </tr>
+    <tr>
+        <td>Bangladesh</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Halbi</td>
+        <td>India</td>
+        <td>in Madhya Pradesh, Chhattisgarh, and Andhra Pradesh</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Kalash</td>
+        <td>Pakistan</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Afghanistan</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Kashmiri</td>
+        <td>India</td>
+        <td>official, spoken in Delhi, Jammu and Kashmir, Punjab, and Uttar Pradesh</td>
+    </tr>
+    <tr>
+        <td>Pakistan</td>
+        <td>spoken in Azad Kashmir</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>minority, mostly by immigrants from Azad Kashmir</td>
+    </tr>
+    <tr>
+        <td>Khandeshi</td>
+        <td>India</td>
+        <td>minority, spoken in Maharashtra, Gujarat</td>
+    </tr>
+    <tr>
+        <td>Khowar</td>
+        <td>Pakistan</td>
+        <td>majority in Chitral, minority in Gilgit</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Kannada</td>
+        <td>India</td>
+        <td>official in Karnataka state</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Kumaoni</td>
+        <td>India</td>
+        <td>majority in Uttarakhand, minority in Assam</td>
+    </tr>
+    <tr>
+        <td rowspan="7">Lomavren</td>
+        <td>Armenia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Azerbaijan</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Bulgaria</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Georgia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Iran</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Russia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Syria</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Magadhi</td>
+        <td>India</td>
+        <td>official in Bihar</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Maithili</td>
+        <td>India</td>
+        <td>official in Bihar</td>
+    </tr>
+    <tr>
+        <td>Nepal</td>
+        <td>significant minority in Terai</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Mal Paharia</td>
+        <td>India</td>
+        <td>minority, mostly in Jharkhand and West Bengal</td>
+    </tr>
+    <tr>
+        <td>Bangladesh</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="11">Marathi</td>
+        <td>India</td>
+        <td>official along with 21 others, widely spoken in Maharashtra &amp; Goa, Gujarat, Madhya Pradesh, Sindh, Karnataka, Andhra Pradesh, Tamil Nadu, Chhattisgarh, Dadra and Nagar Haveli, Telangana, Daman and Diu.</td>
+    </tr>
+    <tr>
+        <td>Israel</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Mauritius</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Singapore</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>Significant minority</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>Significant minority</td>
+    </tr>
+    <tr>
+        <td>Australia</td>
+        <td>Significant minority</td>
+    </tr>
+    <tr>
+        <td>New Zealand</td>
+        <td>Significant minority</td>
+    </tr>
+    <tr>
+        <td>South Africa</td>
+        <td>Significant minority</td>
+    </tr>
+    <tr>
+        <td>United Arab Emirates</td>
+        <td>Significant minority</td>
+    </tr>
+    <tr>
+        <td>Bahrain</td>
+        <td>Significant minority</td>
+    </tr>
+    <tr>
+        <td>Marwari</td>
+        <td>India</td>
+        <td>primarily in Rajasthan and Gujarat and its too spoken in west Bengal, Bihar,jharkhand, eastern u.p, assam, and northeastern states</td>
+    </tr>
+    <tr>
+        <td rowspan="6">Nepali</td>
+        <td>Bhutan</td>
+        <td>unofficial</td>
+    </tr>
+    <tr>
+        <td>Hong Kong</td>
+        <td>unofficial</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>official in Sikkim, regional language in West Bengal</td>
+    </tr>
+    <tr>
+        <td>Myanmar</td>
+        <td>unofficial</td>
+    </tr>
+    <tr>
+        <td>Nepal</td>
+        <td>official</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>unofficial</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Oriya</td>
+        <td>Bangladesh</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>official in Orissa</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Punjabi</td>
+        <td>India</td>
+        <td>official with others</td>
+    </tr>
+    <tr>
+        <td>Pakistan</td>
+        <td>majority in Punjab</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>significant minority</td>
+    </tr>
+    <tr>
+        <td>Canada</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Rajasthani</td>
+        <td>India</td>
+        <td>official along with others</td>
+    </tr>
+    <tr>
+        <td>Pakistan</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Rajbanshi</td>
+        <td>India</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Bangladesh</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Nepal</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="9">Rohingya</td>
+        <td>Burma</td>
+        <td>minority, mostly in Arakan, Burma</td>
+    </tr>
+    <tr>
+        <td>Bangladesh</td>
+        <td>minority, mostly in Chittagong Division, Bangladesh</td>
+    </tr>
+    <tr>
+        <td>Pakistan</td>
+        <td>minority, mostly in Karachi</td>
+    </tr>
+    <tr>
+        <td>Saudi Arabia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Oman</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Arab Emirates</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Thailand</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Malaysia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="9">Sindhi</td>
+        <td>Hong Kong</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>official with others</td>
+    </tr>
+    <tr>
+        <td>Oman</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Pakistan</td>
+        <td>majority in Sindh</td>
+    </tr>
+    <tr>
+        <td>Philippines</td>
+        <td>minority<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i></i>]</sup></td>
+    </tr>
+    <tr>
+        <td>Singapore</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Arab Emirates</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Sinhalese</td>
+        <td>Sri Lanka</td>
+        <td>official; known natively as <b>Sinhala</b> is the native language of the Sinhalese people, who make up the largest ethnic group in Sri Lanka and also spoken as a second language by other ethnic groups in Sri Lanka.</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Sylheti</td>
+        <td>Bangladesh</td>
+        <td>major language of Sylhet Division of Bangladesh</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>significant minority in the state of Assam, especially in Barak Valley</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>significant minority</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Arab Emirates</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Tanchangya</td>
+        <td>Bangladesh</td>
+        <td>minority; mainly in Chittagong Division, related to Chakma, Chittagonian, Pali, Prakrit, Sanskrit Rohingya and Bengali language</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>minority; mainly in Indian states of Assam, Tripura and Mizoram</td>
+    </tr>
+    <tr>
+        <td>Burma</td>
+        <td>minority; mainly in Rakhine State, and few of them in Chin State and Yangon Division of Burma</td>
+    </tr>
+    <tr>
+        <td rowspan="14">Urdu</td>
+        <td>Bahrain</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Bangladesh</td>
+        <td>significant minority</td>
+    </tr>
+    <tr>
+        <td>Fiji</td>
+        <td>co-official as Hindustani with English and Fijian</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>co-official with 21 others</td>
+    </tr>
+    <tr>
+        <td>Nepal</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Mauritius</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Oman</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Pakistan</td>
+        <td>co-official with English</td>
+    </tr>
+    <tr>
+        <td>Qatar</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>Saudi Arabia</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>South Africa</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Arab Emirates</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United Kingdom</td>
+        <td>minority</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>minority</td>
+    </tr>
+    </tbody></table>
+
+
+</body>
+</html>

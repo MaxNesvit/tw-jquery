@@ -1,0 +1,42 @@
+.tm-fancy-select {
+    position: relative;
+    width: 210px;
+    height: 30px;
+    padding: 0;
+}
+.tm-fancy-select div.input {
+    width: 200px;
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.tm-fancy-select span:nth-child(2) {
+    float: right;
+    padding-right: 2px;
+    color: #555;
+    font-size: small;
+}
+
+.tm-fancy-select div.dropdown {
+    position: absolute;
+    width: 208px;
+    height: auto;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: none;
+    overflow-y: auto;
+    z-index: 10;
+}
+.tm-fancy-select div.dropdown>div {
+    padding: 0 5px;
+    cursor: pointer;
+}
+.tm-fancy-select div.dropdown>div.disabled {
+    color: #ccc;
+    cursor: default;
+}
